@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/01/">
+    <Project Path="01/Day01.fsproj" />
+  </Folder>
+  <Project Path="Input/Input.fsproj" />
+</Solution>
