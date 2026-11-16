@@ -10,12 +10,12 @@ let upOrDown c =
     | _ -> 0
 
 let part1 (allChars: char[]) : int =
-    allChars |> Array.map upOrDown |> Array.sum
+    allChars |> Array.sumBy upOrDown
 
 let part2 (allChars: char[]) : int option =
     allChars
     |> Seq.map upOrDown
-    |> Seq.scan (+) 0
+    |> Seq.scan (+) 0 // "The first character in the instructions has position 1" so we start scanning from floor 0
     |> Seq.tryFindIndex (fun floor -> floor < 0)
 
 [<EntryPoint>]

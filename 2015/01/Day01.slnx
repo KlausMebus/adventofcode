@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Input/Input.fsproj" />
+  <Project Path="Day01.fsproj" />
+  <Project Path="test/test.fsproj" />
+</Solution>
