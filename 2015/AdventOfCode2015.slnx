@@ -3,5 +3,9 @@
     <Project Path="01/Day01.fsproj" />
     <Project Path="01/test/test.fsproj" />
   </Folder>
+  <Folder Name="/02/">
+    <Project Path="02/Day02.fsproj" />
+    <Project Path="02/test/test.fsproj" />
+  </Folder>
   <Project Path="Input/Input.fsproj" />
 </Solution>
